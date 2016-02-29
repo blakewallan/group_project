@@ -27,7 +27,7 @@ class MainController < ApplicationController
 
     # @distance = DistanceHelper.haversine(47.6084921, -122.336407, 47.5999035, -122.3345959)
 
-    #THIS SHIT POPULATES THE DB
+    #THIS POPULATES THE DB
 
       # @results.each do |i|
       #   @meals = Meal.create(i)

@@ -16,7 +16,6 @@ class ExpandedController < ApplicationController
     #if there are comments for that place_title, display them
     @comments = Comment.all.where place_title: params[:id]
 
-
     #@comments = [comments]
 
     render 'results/expanded_meal'
